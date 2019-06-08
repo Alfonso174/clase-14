@@ -2,7 +2,7 @@ const express = require('express')
 const app = express()
 const port = 9000
 
-app.get('/', function (req,res) {res.send('hola mundo')
+app.get('/', function (req,res) {res.send('metodo get')
 })
 app.post('/', function (req,res) {res.send('metodo post')
 })
